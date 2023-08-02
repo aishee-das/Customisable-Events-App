@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Vidminas/GitHub/inf2sepp-cw/src/main/java</OriginalElement>
+  <nodes>
+    <node x="40.0" y="0.0">command.LoginCommand</node>
+    <node x="547.0" y="745.0">model.EventStatus</node>
+    <node x="40.0" y="312.0">command.RegisterEntertainmentProviderCommand</node>
+    <node x="40.0" y="117.0">command.BookEventCommand</node>
+    <node x="864.2103658536585" y="445.50000000000006">external.PaymentSystem</node>
+    <node x="582.7103658536585" y="55.14176829268293">controller.Controller</node>
+    <node x="938.6310975609754" y="234.0">state.IEventState</node>
+    <node x="40.0" y="39.0">command.LogoutCommand</node>
+    <node x="40.0" y="634.5">model.Consumer</node>
+    <node x="898.6310975609754" y="108.0">view.ConsoleView</node>
+    <node x="410.0" y="745.0">model.EventType</node>
+    <node x="40.0" y="156.0">command.CreateEventCommand</node>
+    <node x="305.0" y="745.0">model.Event</node>
+    <node x="824.2103658536585" y="514.5">external.MockPaymentSystem</node>
+    <node x="40.0" y="234.0">command.CancelBookingCommand</node>
+    <node x="743.4207317073169" y="234.0">state.IBookingState</node>
+    <node x="305.0" y="639.0">model.ConsumerPreferences</node>
+    <node x="80.0" y="390.0">command.UpdateEntertainmentProviderProfileCommand</node>
+    <node x="551.3506097560976" y="445.50000000000006">external.EntertainmentProviderSystem</node>
+    <node x="40.0" y="195.0">command.CancelEventCommand</node>
+    <node x="0.0" y="742.5">model.User</node>
+    <node x="898.6310975609754" y="303.0">state.EventState</node>
+    <node x="0.0" y="528.0">command.ICommand</node>
+    <node x="534.2103658536585" y="303.0">state.UserState</node>
+    <node x="40.0" y="459.0">command.UpdateProfileCommand</node>
+    <node x="80.0" y="351.0">command.UpdateConsumerProfileCommand</node>
+    <node x="511.3506097560976" y="514.5">external.MockEntertainmentProviderSystem</node>
+    <node x="703.4207317073169" y="303.0">state.BookingState</node>
+    <node x="938.6310975609754" y="39.0">view.IView</node>
+    <node x="40.0" y="78.0">command.ListEventsCommand</node>
+    <node x="434.74237804878055" y="689.4588414634146">model.BookingStatus</node>
+    <node x="40.0" y="273.0">command.RegisterConsumerCommand</node>
+    <node x="590.2103658536585" y="117.0">controller.Context</node>
+    <node x="574.2103658536585" y="234.0">state.IUserState</node>
+    <node x="40.0" y="673.5">model.EntertainmentProvider</node>
+    <node x="305.0" y="689.4588414634146">model.Booking</node>
+    <node x="840.7682926829268" y="689.4588414634147">Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="view.ConsoleView" target="view.IView" relationship="REALIZATION">
+      <point x="-62.5" y="-0.0" />
+      <point x="903.6310975609754" y="88.0" />
+      <point x="918.6310975609754" y="88.0" />
+      <point x="918.6310975609754" y="53.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="287.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="248.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.User" relationship="GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="649.0" />
+      <point x="20.0" y="722.5" />
+      <point x="5.0" y="722.5" />
+      <point x="-34.5" y="-0.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="209.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="state.BookingState" target="state.IBookingState" relationship="REALIZATION">
+      <point x="-64.5" y="-0.0" />
+      <point x="708.4207317073169" y="283.0" />
+      <point x="723.4207317073169" y="283.0" />
+      <point x="723.4207317073169" y="248.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="external.MockPaymentSystem" target="external.PaymentSystem" relationship="REALIZATION">
+      <point x="-90.0" y="-0.0" />
+      <point x="829.2103658536585" y="494.50000000000006" />
+      <point x="844.2103658536585" y="494.50000000000006" />
+      <point x="844.2103658536585" y="460.00000000000006" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="state.UserState" target="state.IUserState" relationship="REALIZATION">
+      <point x="-51.5" y="-0.0" />
+      <point x="539.2103658536585" y="283.0" />
+      <point x="554.2103658536585" y="283.0" />
+      <point x="554.2103658536585" y="248.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="model.EntertainmentProvider" target="model.User" relationship="GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="688.0" />
+      <point x="20.0" y="722.5" />
+      <point x="5.0" y="722.5" />
+      <point x="-34.5" y="-0.0" />
+    </edge>
+    <edge source="state.EventState" target="state.IEventState" relationship="REALIZATION">
+      <point x="-55.0" y="-0.0" />
+      <point x="903.6310975609754" y="283.0" />
+      <point x="918.6310975609754" y="283.0" />
+      <point x="918.6310975609754" y="248.5" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="external.MockEntertainmentProviderSystem" target="external.EntertainmentProviderSystem" relationship="REALIZATION">
+      <point x="-135.5" y="-0.0" />
+      <point x="516.3506097560976" y="494.50000000000006" />
+      <point x="531.3506097560976" y="494.50000000000006" />
+      <point x="531.3506097560976" y="460.00000000000006" />
+      <point x="0.0" y="-0.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="command.UpdateProfileCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="60.0" y="365.5" />
+      <point x="60.0" y="439.0" />
+      <point x="45.0" y="439.0" />
+      <point x="-100.5" y="-0.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="92.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="131.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="170.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="command.UpdateProfileCommand" relationship="GENERALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="60.0" y="404.5" />
+      <point x="60.0" y="439.0" />
+      <point x="45.0" y="439.0" />
+      <point x="-100.5" y="-0.0" />
+    </edge>
+    <edge source="command.LogoutCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="53.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="326.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="14.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="0.0" y="-0.0" />
+      <point x="20.0" y="473.5" />
+      <point x="20.0" y="508.0" />
+      <point x="5.0" y="508.0" />
+      <point x="-70.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Compact" zoom="0.7001067235859125" showDependencies="false" x="480.5" y="458.5" />
+  <SelectedNodes>
+    <node>external.EntertainmentProviderSystem</node>
+    <node>external.MockPaymentSystem</node>
+    <node>external.PaymentSystem</node>
+    <node>external.MockEntertainmentProviderSystem</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

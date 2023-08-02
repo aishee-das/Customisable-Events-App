@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.graphhopper:graphhopper-core:7.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.graphhopper" artifactId="graphhopper-core" version="7.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper/graphhopper-core/7.0/df40ba8faa6e829b8803c99d1ebf0475095634c/graphhopper-core-7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper/graphhopper-core/7.0/1a624b3278cd9efc7e29b3a9ce3fe7e49fc3ca69/graphhopper-core-7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

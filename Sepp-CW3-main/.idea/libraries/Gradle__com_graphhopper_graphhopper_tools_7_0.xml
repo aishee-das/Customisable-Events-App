@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.graphhopper:graphhopper-tools:7.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.graphhopper" artifactId="graphhopper-tools" version="7.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper/graphhopper-tools/7.0/5235419a6fa2290c047419887f5d71d5057ba0ae/graphhopper-tools-7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper/graphhopper-tools/7.0/b56c436abac73b53fbd2b6c9eb47af226c94c8c5/graphhopper-tools-7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

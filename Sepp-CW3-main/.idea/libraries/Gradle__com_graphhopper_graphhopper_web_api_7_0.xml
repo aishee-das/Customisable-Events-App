@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.graphhopper:graphhopper-web-api:7.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.graphhopper" artifactId="graphhopper-web-api" version="7.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper/graphhopper-web-api/7.0/ffca9a9e55b7f98e230f71d20412c29603355929/graphhopper-web-api-7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper/graphhopper-web-api/7.0/2cefbffabc0b3c4bbee3b7912924ae65d178c9a6/graphhopper-web-api-7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

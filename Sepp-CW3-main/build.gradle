@@ -1,0 +1,76 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'uk.ac.ed.inf'
+version '1.0'
+
+sourceCompatibility = 14
+compileJava {
+    targetCompatibility = 14
+    options.compilerArgs.add('-parameters')
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
+    implementation group: 'at.favre.lib', name: 'bcrypt', version: '0.9.0'
+    // https://mvnrepository.com/artifact/com.graphhopper/graphhopper-core
+    implementation group: 'com.graphhopper', name: 'graphhopper-core', version: '7.0'
+    implementation group: 'com.graphhopper', name: 'graphhopper-web-api', version: '7.0'
+    implementation group: 'com.graphhopper', name: 'graphhopper-nav', version: '7.0'
+    implementation group: 'com.graphhopper', name: 'graphhopper-tools', version: '7.0'
+
+
+
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'Main'
+}
+run {
+    standardInput = System.in
+}
+
+sourceSets.main.java.srcDir('src/main/javadoc')
+
+javadoc {
+    source = sourceSets.main.allJava
+    options.memberLevel = JavadocMemberLevel.PACKAGE
+    options.noQualifiers "java.lang:java.util:java.time"
+    options.addStringOption "taglet", "VerifiesThatTaglet"
+    options.addStringOption "tagletpath", sourceSets.main.output.classesDirs.asPath
+    options.overview = "src/main/javadoc/overview.html"
+    options.windowTitle = "INF2SEPP CW Project Documentation"
+    title = "INF2SEPP CW Project Documentation"
+
+    doLast {
+        copy {
+            from "$projectDir/src/main/javadoc"
+            into "$project.docsDir/javadoc"
+            include "**/doc-files/*"
+        }
+    }
+}
+
+jar {
+    from (
+            configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    ) {
+        exclude 'META-INF/*.RSA', 'META-INF/*.SF', 'META-INF/*.DSA'
+    }
+
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}

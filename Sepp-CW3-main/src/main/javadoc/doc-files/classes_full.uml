@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/Vidminas/GitHub/inf2sepp-cw/src/main/java</OriginalElement>
+  <nodes>
+    <node x="126.44803380183112" y="4611.0">command.UpdateConsumerProfileCommand.LogStatus</node>
+    <node x="5237.949625585721" y="1413.0">model.EventStatus</node>
+    <node x="9511.127200468498" y="2713.0">external.PaymentSystem</node>
+    <node x="10601.293867135164" y="4633.0">controller.Controller</node>
+    <node x="3211.523033801831" y="4611.0">command.LoginCommand.LogStatus</node>
+    <node x="3756.0724251172246" y="330.0">model.Consumer</node>
+    <node x="10741.793867135164" y="3834.0">view.ConsoleView</node>
+    <node x="5781.960533801831" y="1380.0">model.EventType</node>
+    <node x="5517.364091783891" y="1878.0">model.Event</node>
+    <node x="1627.314700468498" y="4076.0">command.UpdateProfileCommand.LogStatus</node>
+    <node x="8294.793867135164" y="3112.0">external.MockPaymentSystem</node>
+    <node x="9971.812650602395" y="5044.0">command.CancelBookingCommand</node>
+    <node x="8909.127200468498" y="2702.0">state.IBookingState</node>
+    <node x="4111.322425117225" y="943.0">external.EntertainmentProviderSystem</node>
+    <node x="2479.960533801831" y="4556.0">command.BookEventCommand.LogStatus</node>
+    <node x="4313.918867135164" y="0.0">model.User</node>
+    <node x="9259.127200468498" y="2664.0">external.MockPaymentSystem.Transaction</node>
+    <node x="889.1480338018309" y="4087.0">command.ListEventsCommand.LogStatus</node>
+    <node x="8074.395983935727" y="3406.0">controller.Context</node>
+    <node x="1258.148033801831" y="4589.0">command.RegisterConsumerCommand.LogStatus</node>
+    <node x="9832.127200468498" y="2691.0">state.IUserState</node>
+    <node x="4419.739091783891" y="1325.0">model.EntertainmentProvider</node>
+    <node x="10194.127200468498" y="4567.0">command.CancelBookingCommand.LogStatus</node>
+    <node x="4509.460533801831" y="4622.0">command.LogoutCommand.LogStatus</node>
+    <node x="4004.960533801831" y="4578.0">command.CreateEventCommand.LogStatus</node>
+    <node x="3306.898033801831" y="5033.0">command.LoginCommand</node>
+    <node x="2789.0208333333335" y="5011.0">command.RegisterEntertainmentProviderCommand</node>
+    <node x="2457.3958333333335" y="5033.0">command.BookEventCommand</node>
+    <node x="7371.793867135164" y="2702.0">state.IEventState</node>
+    <node x="4522.960533801831" y="5068.5">command.LogoutCommand</node>
+    <node x="6691.960533801831" y="4567.0">command.CancelEventCommand.LogStatus</node>
+    <node x="3802.960533801831" y="4934.0">command.CreateEventCommand</node>
+    <node x="1875.479317269061" y="11.0">model.ConsumerPreferences</node>
+    <node x="1914.8333333333335" y="5022.0">command.UpdateEntertainmentProviderProfileCommand</node>
+    <node x="6679.562650602395" y="5033.0">command.CancelEventCommand</node>
+    <node x="7141.793867135164" y="3134.0">state.EventState</node>
+    <node x="5199.812650602395" y="4125.0">command.ICommand</node>
+    <node x="8615.793867135164" y="3123.0">state.UserState</node>
+    <node x="1599.564700468498" y="4622.0">command.UpdateProfileCommand</node>
+    <node x="2586.8958333333335" y="1314.0">external.MockEntertainmentProviderSystem</node>
+    <node x="0.0" y="5000.0">command.UpdateConsumerProfileCommand</node>
+    <node x="7956.793867135164" y="3134.0">state.BookingState</node>
+    <node x="10555.793867135164" y="3455.0">view.IView</node>
+    <node x="852.1480338018309" y="4578.0">command.ListEventsCommand</node>
+    <node x="6524.710533801831" y="440.0">model.BookingStatus</node>
+    <node x="602.0" y="5000.0">command.RegisterConsumerCommand</node>
+    <node x="2049.731367135165" y="4600.0">command.UpdateEntertainmentProviderProfileCommand.LogStatus</node>
+    <node x="6175.710533801831" y="828.0">model.Booking</node>
+    <node x="6721.062650602394" y="5358.0">Main</node>
+    <node x="2852.773033801831" y="4578.0">command.RegisterEntertainmentProviderCommand.LogStatus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="model.Event" target="model.EventStatus" relationship="DEPENDENCY">
+      <point x="-382.00009178389155" y="15.0" />
+      <point x="5475.0" y="2244.0" />
+      <point x="5475.0" y="1489.0" />
+      <point x="97.00037441427867" y="0.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="external.PaymentSystem" relationship="DEPENDENCY">
+      <point x="30.000349397605532" y="87.0" />
+      <point x="6831.063" y="5269.5" />
+      <point x="10857.794" y="5269.5" />
+      <point x="10857.794" y="4514.0" />
+      <point x="10202.313" y="4514.0" />
+      <point x="10202.313" y="2975.0" />
+      <point x="9661.627" y="2975.0" />
+      <point x="-2.004684974963311E-4" y="38.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="command.RegisterEntertainmentProviderCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="15.0001666666667" y="-109.0" />
+      <point x="5.747966198169252" y="120.0" />
+    </edge>
+    <edge source="Main" target="command.LogoutCommand" relationship="DEPENDENCY">
+      <point x="-210.5" y="-108.5" />
+      <point x="4635.461" y="5380.5" />
+      <point x="12.500466198169306" y="51.5" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="command.RegisterConsumerCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="196.5" y="0.0" />
+      <point x="1406.148033801831" y="5120.0" />
+      <point x="0.0" y="109.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="-108.4998333333333" y="0.0" />
+      <point x="2436.0" y="5120.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="1.6666666670062114E-4" y="-109.0" />
+      <point x="2999.021" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.LoginCommand.LogStatus" target="command.LoginCommand" relationship="INNER_CLASS">
+      <point x="0.0" y="87.0" />
+      <point x="-75.375" y="-87.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="15.0001666666667" y="-87.0" />
+      <point x="2580.896" y="4926.0" />
+      <point x="2808.0" y="4926.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-30.00003380183091" y="-120.0" />
+      <point x="1015.148" y="4493.0" />
+      <point x="4971.0" y="4493.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="model.Booking" target="model.BookingStatus" relationship="DEPENDENCY">
+      <point x="164.0004661981693" y="-15.0" />
+      <point x="6548.0" y="999.0" />
+      <point x="6548.0" y="735.0" />
+      <point x="6636.0" y="735.0" />
+      <point x="6.789466198169066" y="87.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.Event" relationship="DEPENDENCY">
+      <point x="146.9995748827755" y="0.0" />
+      <point x="5052.0" y="527.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="model.Event" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="-382.00009178389155" y="0.0" />
+      <point x="5126.0" y="2229.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="69.6249661981692" y="-87.0" />
+      <point x="3484.023" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="-349.99953380183115" y="0.0" />
+      <point x="3721.0" y="5120.0" />
+      <point x="3721.0" y="4450.0" />
+      <point x="3581.0" y="4450.0" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="3.4939760553243104E-4" y="87.0" />
+      <point x="6801.063" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="model.User" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="124.5001328648359" y="15.0" />
+      <point x="4971.0" y="124.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="state.IEventState" target="model.EventType" relationship="DEPENDENCY">
+      <point x="1.3286483590491116E-4" y="-49.0" />
+      <point x="7769.294" y="2641.0" />
+      <point x="6466.0" y="2641.0" />
+      <point x="6466.0" y="1489.0" />
+      <point x="93.5004661981693" y="0.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-15.0" y="-120.0" />
+      <point x="783.5" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="model.ConsumerPreferences" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="106.49968273093873" y="0.0" />
+      <point x="3639.0" y="109.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="controller.Context" target="state.UserState" relationship="CREATE">
+      <point x="123.5" y="-30.0" />
+      <point x="8710.294" y="3518.0" />
+      <point x="-14.999867135164095" y="109.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="external.PaymentSystem" relationship="DEPENDENCY">
+      <point x="110.50034939760553" y="0.0" />
+      <point x="10857.794" y="5120.0" />
+      <point x="10857.794" y="4514.0" />
+      <point x="10202.313" y="4514.0" />
+      <point x="10202.313" y="2975.0" />
+      <point x="9661.627" y="2975.0" />
+      <point x="-2.004684974963311E-4" y="38.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-165.49953380183115" y="-186.0" />
+      <point x="3987.461" y="4493.0" />
+      <point x="4971.0" y="4493.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="controller.Context" target="external.PaymentSystem" relationship="TO_ONE">
+      <point x="123.5" y="30.0" />
+      <point x="9676.627" y="3578.0" />
+      <point x="14.999799531502504" y="38.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="-3.3801830795709975E-5" y="-87.0" />
+      <point x="3414.398" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="model.Event" target="external.EntertainmentProviderSystem" relationship="DEPENDENCY">
+      <point x="-382.00009178389155" y="-30.0" />
+      <point x="4938.0" y="2199.0" />
+      <point x="4938.0" y="1014.0" />
+      <point x="219.49957488277505" y="0.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand.LogStatus" target="command.UpdateProfileCommand" relationship="INNER_CLASS">
+      <point x="-30.24970046849785" y="87.0" />
+      <point x="-29.99970046849785" y="-76.0" />
+    </edge>
+    <edge source="Main" target="controller.Context" relationship="CREATE">
+      <point x="210.5" y="60.0" />
+      <point x="10872.794" y="5549.0" />
+      <point x="10872.794" y="4535.0" />
+      <point x="10608.793867135164" y="4535.0" />
+      <point x="10608.793867135164" y="3658.5" />
+      <point x="123.5" y="110.5" />
+    </edge>
+    <edge source="model.EntertainmentProvider" target="external.EntertainmentProviderSystem" relationship="TO_ONE">
+      <point x="-234.5" y="-164.0" />
+      <point x="96.41666666666606" y="71.0" />
+    </edge>
+    <edge source="controller.Context" target="state.BookingState" relationship="CREATE">
+      <point x="-82.10211680056273" y="-142.0" />
+      <point x="0.0" y="98.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="-29.9998333333333" y="-109.0" />
+      <point x="2969.021" y="4941.5" />
+      <point x="2808.0" y="4941.5" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="state.IBookingState" relationship="DEPENDENCY">
+      <point x="121.50034939760553" y="15.0" />
+      <point x="7174.563" y="5135.0" />
+      <point x="7174.563" y="4551.0" />
+      <point x="10187.313" y="4551.0" />
+      <point x="10187.313" y="2641.0" />
+      <point x="9083.127" y="2641.0" />
+      <point x="14.999799531502504" y="-49.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="60.00034939760553" y="-76.0" />
+      <point x="10142.313" y="4493.0" />
+      <point x="4971.0" y="4493.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.Booking" relationship="TO_MANY">
+      <point x="14.999574882775505" y="197.0" />
+      <point x="3918.072" y="750.0" />
+      <point x="6354.711" y="750.0" />
+      <point x="15.000466198169306" y="-186.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="30.0001666666667" y="-87.0" />
+      <point x="2595.896" y="4971.5" />
+      <point x="2793.0" y="4971.5" />
+      <point x="2793.0" y="4535.0" />
+      <point x="5126.0" y="4535.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-15.000333333333401" y="98.0" />
+      <point x="2143.333" y="5257.5" />
+      <point x="-32.5" y="5257.5" />
+      <point x="-32.5" y="4333.0" />
+      <point x="4971.0" y="4333.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-121.49965060239447" y="15.0" />
+      <point x="5163.0" y="5135.0" />
+      <point x="5163.0" y="4493.0" />
+      <point x="4971.0" y="4493.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="0.0" y="-120.0" />
+      <point x="798.5" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="state.IEventState" relationship="DEPENDENCY">
+      <point x="-121.49965060239447" y="-15.0" />
+      <point x="6636.0" y="5105.0" />
+      <point x="6636.0" y="2766.0" />
+      <point x="-397.4998671351641" y="15.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="0.0" y="-120.0" />
+      <point x="291.0" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="14.999966198169204" y="-87.0" />
+      <point x="3429.398" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="state.EventState" target="model.Event" relationship="TO_MANY">
+      <point x="1.3286483590491116E-4" y="98.0" />
+      <point x="7539.294" y="3607.0" />
+      <point x="5899.364" y="3607.0" />
+      <point x="-9.178389154840261E-5" y="351.0" />
+    </edge>
+    <edge source="Main" target="view.ConsoleView" relationship="CREATE">
+      <point x="210.5" y="75.0" />
+      <point x="10923.293867135164" y="5564.0" />
+      <point x="0.0" y="329.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="-197.05200000000002" y="-120.0" />
+      <point x="93.948" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Context" relationship="TO_ONE">
+      <point x="-17.293867135163964" y="-65.0" />
+      <point x="10703.5" y="3673.5" />
+      <point x="123.5" y="125.5" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="3.4939760553243104E-4" y="76.0" />
+      <point x="10082.313" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="controller.Context" target="external.MockPaymentSystem" relationship="CREATE">
+      <point x="104.39788319943727" y="-142.0" />
+      <point x="-143.0" y="120.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="command.UpdateProfileCommand" relationship="GENERALIZATION">
+      <point x="14.999666666666599" y="-98.0" />
+      <point x="2173.333" y="4971.0" />
+      <point x="1798.565" y="4971.0" />
+      <point x="15.00029953150215" y="76.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="15.0" y="-120.0" />
+      <point x="813.5" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="state.BookingState" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="-73.89786713516423" y="98.0" />
+      <point x="8041.896" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="external.MockPaymentSystem" target="external.MockPaymentSystem.Transaction" relationship="CREATE">
+      <point x="15.0" y="-120.0" />
+      <point x="8460.293867135164" y="2832.5" />
+      <point x="-116.0" y="81.5" />
+    </edge>
+    <edge source="model.Event" target="model.EventType" relationship="TO_ONE">
+      <point x="-382.00009178389155" y="30.0" />
+      <point x="5497.0" y="2259.0" />
+      <point x="5497.0" y="1489.0" />
+      <point x="-93.4995338018307" y="0.0" />
+    </edge>
+    <edge source="state.UserState" target="model.User" relationship="TO_MANY">
+      <point x="1.3286483590491116E-4" y="-109.0" />
+      <point x="8725.294" y="312.5" />
+      <point x="3680.0" y="312.5" />
+      <point x="3680.0" y="94.0" />
+      <point x="-124.4998671351641" y="-15.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="-212.05200000000002" y="-120.0" />
+      <point x="78.948" y="4535.0" />
+      <point x="5126.0" y="4535.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="state.IEventState" relationship="DEPENDENCY">
+      <point x="-59.9998333333333" y="87.0" />
+      <point x="2505.896" y="5395.5" />
+      <point x="5163.0" y="5395.5" />
+      <point x="5163.0" y="5239.5" />
+      <point x="6636.0" y="5239.5" />
+      <point x="6636.0" y="2766.0" />
+      <point x="-397.4998671351641" y="15.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="command.UpdateEntertainmentProviderProfileCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="87.89803380183139" y="-98.0" />
+      <point x="15.0" y="98.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="15.000349397605532" y="87.0" />
+      <point x="6816.063" y="5224.5" />
+      <point x="11122.294" y="5224.5" />
+      <point x="11122.294" y="2572.5" />
+      <point x="10083.627" y="2572.5" />
+      <point x="10083.627" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="model.ConsumerPreferences" relationship="TO_ONE">
+      <point x="-227.052" y="-120.0" />
+      <point x="63.948" y="269.0" />
+      <point x="2025.0" y="269.0" />
+      <point x="43.020682730938915" y="98.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-15.0" y="-120.0" />
+      <point x="276.0" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="0.0" y="120.0" />
+      <point x="798.5" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="state.IEventState" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-397.4998671351641" y="-15.0" />
+      <point x="5163.0" y="2736.0" />
+      <point x="5163.0" y="4493.0" />
+      <point x="4971.0" y="4493.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="-45.00003380183091" y="-120.0" />
+      <point x="1000.148" y="4450.0" />
+      <point x="3581.0" y="4450.0" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.9998333333333" y="-109.0" />
+      <point x="2984.021" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="external.MockPaymentSystem.Transaction" target="external.MockPaymentSystem" relationship="INNER_CLASS">
+      <point x="-116.0" y="66.5" />
+      <point x="8445.293867135164" y="2817.5" />
+      <point x="0.0" y="-120.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="model.EntertainmentProvider" relationship="TO_ONE">
+      <point x="182.25216666666665" y="-109.0" />
+      <point x="3181.273" y="1674.0" />
+      <point x="4676.739" y="1674.0" />
+      <point x="14.999908216108452" y="164.0" />
+    </edge>
+    <edge source="controller.Controller" target="view.IView" relationship="TO_ONE">
+      <point x="-97.0" y="-65.0" />
+      <point x="-107.5" y="93.0" />
+    </edge>
+    <edge source="model.Booking" target="model.Event" relationship="DEPENDENCY">
+      <point x="164.0004661981693" y="0.0" />
+      <point x="6592.0" y="1014.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="Main" target="command.UpdateEntertainmentProviderProfileCommand" relationship="DEPENDENCY">
+      <point x="-210.5" y="-30.0" />
+      <point x="2173.333" y="5459.0" />
+      <point x="14.999666666666599" y="98.0" />
+    </edge>
+    <edge source="state.BookingState" target="model.Booking" relationship="CREATE">
+      <point x="83.5001328648359" y="-98.0" />
+      <point x="8199.294" y="984.0" />
+      <point x="164.0" y="-30.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="-14.99970046849785" y="-76.0" />
+      <point x="1768.565" y="4450.0" />
+      <point x="3581.0" y="4450.0" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.LogoutCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="100.0004661981693" y="0.0" />
+      <point x="5037.0" y="5120.0" />
+      <point x="5037.0" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="state.EventState" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-397.4998671351641" y="0.0" />
+      <point x="5163.0" y="3232.0" />
+      <point x="5163.0" y="4493.0" />
+      <point x="4971.0" y="4493.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="state.UserState" target="state.IUserState" relationship="REALIZATION">
+      <point x="109.5" y="0.0" />
+      <point x="9911.627" y="3232.0" />
+      <point x="-30.000200468497496" y="60.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="14.999966198168977" y="120.0" />
+      <point x="1060.148" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="Main" target="command.BookEventCommand" relationship="DEPENDENCY">
+      <point x="-210.5" y="-45.0" />
+      <point x="2625.896" y="5444.0" />
+      <point x="60.0001666666667" y="87.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="model.Event" relationship="TO_ONE">
+      <point x="-14.999533801830694" y="186.0" />
+      <point x="4137.961" y="5637.5" />
+      <point x="11137.294" y="5637.5" />
+      <point x="11137.294" y="-17.5" />
+      <point x="1857.979" y="-17.5" />
+      <point x="1857.979" y="3607.0" />
+      <point x="5899.364" y="3607.0" />
+      <point x="-9.178389154840261E-5" y="351.0" />
+    </edge>
+    <edge source="state.BookingState" target="model.Booking" relationship="TO_MANY">
+      <point x="68.5001328648359" y="-98.0" />
+      <point x="8184.294" y="750.0" />
+      <point x="6354.711" y="750.0" />
+      <point x="15.000466198169306" y="-186.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="0.0" y="120.0" />
+      <point x="291.0" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand.LogStatus" target="command.UpdateEntertainmentProviderProfileCommand" relationship="INNER_CLASS">
+      <point x="0.0" y="98.0" />
+      <point x="72.89803380183139" y="-98.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="command.CancelBookingCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="110.5" y="-30.0" />
+      <point x="10352.127200468498" y="5090.0" />
+      <point x="-15.0" y="131.0" />
+    </edge>
+    <edge source="model.Event" target="model.EventType" relationship="DEPENDENCY">
+      <point x="85.13590821610887" y="351.0" />
+      <point x="5984.5" y="2641.0" />
+      <point x="6466.0" y="2641.0" />
+      <point x="6466.0" y="1489.0" />
+      <point x="93.5004661981693" y="0.0" />
+    </edge>
+    <edge source="model.Event" target="model.EventStatus" relationship="TO_ONE">
+      <point x="-134.9035579820602" y="-351.0" />
+      <point x="5764.460533801831" y="1474.0" />
+      <point x="97.0" y="-15.0" />
+    </edge>
+    <edge source="controller.Context" target="state.EventState" relationship="CREATE">
+      <point x="-123.5" y="-15.0" />
+      <point x="7554.294" y="3533.0" />
+      <point x="15.000132864835905" y="98.0" />
+    </edge>
+    <edge source="controller.Context" target="state.IEventState" relationship="TO_ONE">
+      <point x="-123.5" y="0.0" />
+      <point x="6662.062650602395" y="3548.0" />
+      <point x="6662.062650602395" y="2781.0" />
+      <point x="-397.5" y="30.0" />
+    </edge>
+    <edge source="command.BookEventCommand.LogStatus" target="command.BookEventCommand" relationship="INNER_CLASS">
+      <point x="-100.56453380183075" y="142.0" />
+      <point x="-44.9998333333333" y="-87.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-3.3333333340124227E-4" y="-98.0" />
+      <point x="2158.333" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="model.EntertainmentProvider" target="external.EntertainmentProviderSystem" relationship="DEPENDENCY">
+      <point x="241.99990821610845" y="15.0" />
+      <point x="4938.0" y="1504.0" />
+      <point x="4938.0" y="1014.0" />
+      <point x="219.49957488277505" y="0.0" />
+    </edge>
+    <edge source="Main" target="command.UpdateConsumerProfileCommand" relationship="DEPENDENCY">
+      <point x="-210.5" y="43.0" />
+      <point x="261.0" y="5532.0" />
+      <point x="-30.0" y="120.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="model.ConsumerPreferences" relationship="DEPENDENCY">
+      <point x="-193.0" y="-104.5" />
+      <point x="33.94800000000001" y="4593.5" />
+      <point x="33.94800000000001" y="109.0" />
+      <point x="-106.5" y="0.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="75.00034939760553" y="-76.0" />
+      <point x="10157.313" y="4450.0" />
+      <point x="3581.0" y="4450.0" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="1.6666666670062114E-4" y="-87.0" />
+      <point x="2565.896" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="model.EntertainmentProvider" target="model.User" relationship="GENERALIZATION">
+      <point x="-242.00009178389155" y="0.0" />
+      <point x="4081.0" y="1489.0" />
+      <point x="4081.0" y="109.0" />
+      <point x="-124.4998671351641" y="0.0" />
+    </edge>
+    <edge source="command.LogoutCommand.LogStatus" target="command.LogoutCommand" relationship="INNER_CLASS">
+      <point x="45.000466198169306" y="76.0" />
+      <point x="45.000466198169306" y="-51.5" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="model.EventType" relationship="DEPENDENCY">
+      <point x="350.0004661981693" y="134.5" />
+      <point x="6466.0" y="5254.5" />
+      <point x="6466.0" y="1489.0" />
+      <point x="93.5004661981693" y="0.0" />
+    </edge>
+    <edge source="external.MockEntertainmentProviderSystem" target="external.EntertainmentProviderSystem" relationship="REALIZATION">
+      <point x="219.5" y="-15.0" />
+      <point x="4330.822425117225" y="1474.0" />
+      <point x="0.0" y="71.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="command.UpdateProfileCommand" relationship="GENERALIZATION">
+      <point x="15.0" y="-120.0" />
+      <point x="306.0" y="4971.0" />
+      <point x="1798.565" y="4971.0" />
+      <point x="15.00029953150215" y="76.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand.LogStatus" target="command.UpdateConsumerProfileCommand" relationship="INNER_CLASS">
+      <point x="-57.448033801831116" y="87.0" />
+      <point x="-60.0" y="-120.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="2.9953150215078495E-4" y="-76.0" />
+      <point x="1783.565" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="model.ConsumerPreferences" target="model.Event" relationship="DEPENDENCY">
+      <point x="-3.172690610426798E-4" y="98.0" />
+      <point x="1981.979" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="3.4939760553243104E-4" y="-87.0" />
+      <point x="6801.063" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="model.Event" relationship="DEPENDENCY">
+      <point x="350.0004661981693" y="69.0" />
+      <point x="5052.0" y="5189.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="model.EventStatus" relationship="DEPENDENCY">
+      <point x="30.0001666666667" y="87.0" />
+      <point x="2595.896" y="5652.5" />
+      <point x="5524.864" y="5652.5" />
+      <point x="5524.864" y="5150.0" />
+      <point x="5475.0" y="5150.0" />
+      <point x="5475.0" y="1489.0" />
+      <point x="97.00037441427867" y="0.0" />
+    </edge>
+    <edge source="state.EventState" target="model.EventType" relationship="DEPENDENCY">
+      <point x="-184.9998671351641" y="-98.0" />
+      <point x="7354.294" y="2641.0" />
+      <point x="6466.0" y="2641.0" />
+      <point x="6466.0" y="1489.0" />
+      <point x="93.5004661981693" y="0.0" />
+    </edge>
+    <edge source="Main" target="command.CancelBookingCommand" relationship="DEPENDENCY">
+      <point x="210.5" y="-15.0" />
+      <point x="10097.313" y="5474.0" />
+      <point x="15.000349397605532" y="76.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-14.9998333333333" y="87.0" />
+      <point x="2550.896" y="5257.5" />
+      <point x="-32.5" y="5257.5" />
+      <point x="-32.5" y="4333.0" />
+      <point x="4971.0" y="4333.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="command.CancelEventCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="-29.999650602394468" y="-87.0" />
+      <point x="-98.39753380183083" y="131.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand" target="command.UpdateProfileCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="15.00029953150215" y="-76.0" />
+      <point x="14.75029953150215" y="87.0" />
+    </edge>
+    <edge source="model.Event" target="model.EntertainmentProvider" relationship="TO_ONE">
+      <point x="-9.178389154840261E-5" y="-351.0" />
+      <point x="5899.364" y="1674.0" />
+      <point x="4676.739" y="1674.0" />
+      <point x="14.999908216108452" y="164.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="121.50034939760553" y="-15.0" />
+      <point x="7064.461" y="5105.0" />
+      <point x="7064.461" y="4535.0" />
+      <point x="5126.0" y="4535.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="controller.Context" target="state.IEventState" relationship="DEPENDENCY">
+      <point x="-123.49998393572696" y="74.0" />
+      <point x="6636.0" y="3622.0" />
+      <point x="6636.0" y="2766.0" />
+      <point x="-397.4998671351641" y="15.0" />
+    </edge>
+    <edge source="external.MockPaymentSystem" target="external.MockPaymentSystem.Transaction" relationship="TO_MANY">
+      <point x="-15.0" y="-120.0" />
+      <point x="8430.293867135164" y="2684.5" />
+      <point x="-116.0" y="-66.5" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="45.00034939760553" y="-76.0" />
+      <point x="10127.313" y="4535.0" />
+      <point x="5126.0" y="4535.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="model.Booking" relationship="DEPENDENCY">
+      <point x="-14.999650602394468" y="87.0" />
+      <point x="6786.063" y="5224.5" />
+      <point x="5004.0" y="5224.5" />
+      <point x="5004.0" y="776.0" />
+      <point x="6339.711" y="776.0" />
+      <point x="4.6619816930615343E-4" y="-186.0" />
+    </edge>
+    <edge source="command.LogoutCommand" target="command.LogoutCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="30.000466198169306" y="-51.5" />
+      <point x="30.000466198169306" y="76.0" />
+    </edge>
+    <edge source="state.IUserState" target="model.User" relationship="DEPENDENCY">
+      <point x="-2.004684974963311E-4" y="60.0" />
+      <point x="9941.627" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="command.CreateEventCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="27.5" y="-186.0" />
+      <point x="0.0" y="120.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="external.EntertainmentProviderSystem" relationship="DEPENDENCY">
+      <point x="-29.999650602394468" y="-76.0" />
+      <point x="10052.313" y="4972.0" />
+      <point x="4938.0" y="4972.0" />
+      <point x="4938.0" y="1014.0" />
+      <point x="219.49957488277505" y="0.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="model.Event" relationship="DEPENDENCY">
+      <point x="15.000349397605532" y="-76.0" />
+      <point x="10097.313" y="4471.0" />
+      <point x="5052.0" y="4471.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="state.IBookingState" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="14.999799531502504" y="49.0" />
+      <point x="9083.127" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="-3.380183102308365E-5" y="120.0" />
+      <point x="1045.148" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="model.EntertainmentProvider" relationship="CREATE">
+      <point x="210.0" y="100.0" />
+      <point x="3777.0724251172246" y="5220.0" />
+      <point x="3777.0724251172246" y="4874.5" />
+      <point x="4506.460533801831" y="4874.5" />
+      <point x="-155.2785579820602" y="164.0" />
+    </edge>
+    <edge source="model.EntertainmentProvider" target="model.Booking" relationship="DEPENDENCY">
+      <point x="241.99990821610845" y="-30.0" />
+      <point x="5004.0" y="1459.0" />
+      <point x="5004.0" y="776.0" />
+      <point x="6339.711" y="776.0" />
+      <point x="4.6619816930615343E-4" y="-186.0" />
+    </edge>
+    <edge source="controller.Context" target="state.IUserState" relationship="TO_ONE">
+      <point x="123.5" y="45.0" />
+      <point x="9926.627" y="3593.0" />
+      <point x="-15.000200468497496" y="60.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="107.4999661981692" y="0.0" />
+      <point x="3581.0" y="5120.0" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="model.EventStatus" relationship="DEPENDENCY">
+      <point x="-30.00003380183091" y="120.0" />
+      <point x="1015.148" y="5652.5" />
+      <point x="5524.864" y="5652.5" />
+      <point x="5524.864" y="5150.0" />
+      <point x="5475.0" y="5150.0" />
+      <point x="5475.0" y="1489.0" />
+      <point x="97.00037441427867" y="0.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="model.EventType" relationship="TO_ONE">
+      <point x="350.0004661981693" y="149.5" />
+      <point x="5497.0" y="5269.5" />
+      <point x="5497.0" y="1489.0" />
+      <point x="-93.4995338018307" y="0.0" />
+    </edge>
+    <edge source="state.IBookingState" target="model.Event" relationship="DEPENDENCY">
+      <point x="-2.004684974963311E-4" y="49.0" />
+      <point x="9068.127" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="3.4939760553243104E-4" y="-76.0" />
+      <point x="10082.313" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="model.Event" relationship="TO_MANY">
+      <point x="-173.5000338018309" y="-120.0" />
+      <point x="871.648" y="3607.0" />
+      <point x="5899.364" y="3607.0" />
+      <point x="-9.178389154840261E-5" y="351.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="external.EntertainmentProviderSystem" relationship="DEPENDENCY">
+      <point x="350.0004661981693" y="-104.5" />
+      <point x="4592.961" y="5015.5" />
+      <point x="4592.961" y="4972.0" />
+      <point x="4938.0" y="4972.0" />
+      <point x="4938.0" y="1014.0" />
+      <point x="219.49957488277505" y="0.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="model.EventStatus" relationship="DEPENDENCY">
+      <point x="-121.49965060239447" y="30.0" />
+      <point x="5475.0" y="5150.0" />
+      <point x="5475.0" y="1489.0" />
+      <point x="97.00037441427867" y="0.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="243.4996666666666" y="0.0" />
+      <point x="2436.0" y="5120.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="2.9953150215078495E-4" y="76.0" />
+      <point x="1783.565" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="command.ListEventsCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="-60.00003380183091" y="-120.0" />
+      <point x="-12.00003380183091" y="76.0" />
+    </edge>
+    <edge source="state.BookingState" target="state.IBookingState" relationship="REALIZATION">
+      <point x="98.5001328648359" y="-98.0" />
+      <point x="8214.294" y="2751.0" />
+      <point x="-159.0" y="0.0" />
+    </edge>
+    <edge source="external.MockPaymentSystem" target="external.PaymentSystem" relationship="REALIZATION">
+      <point x="30.0" y="-120.0" />
+      <point x="8475.293867135164" y="2902.5" />
+      <point x="9646.627" y="2902.5" />
+      <point x="-15.000200468497496" y="38.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="184.00029953150215" y="0.0" />
+      <point x="2016.0" y="4698.0" />
+      <point x="2016.0" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="-15.000033801831023" y="-120.0" />
+      <point x="1030.148" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="model.User" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="124.5001328648359" y="-15.0" />
+      <point x="5126.0" y="94.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="146.9995748827755" y="-15.0" />
+      <point x="4971.0" y="512.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="external.EntertainmentProviderSystem" relationship="DEPENDENCY">
+      <point x="15.000349397605532" y="-87.0" />
+      <point x="6816.063" y="4972.0" />
+      <point x="4938.0" y="4972.0" />
+      <point x="4938.0" y="1014.0" />
+      <point x="219.49957488277505" y="0.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="15.0001666666667" y="87.0" />
+      <point x="2580.896" y="5257.5" />
+      <point x="3581.0" y="5257.5" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="220.5004661981693" y="-186.0" />
+      <point x="4373.461" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="model.EntertainmentProvider" target="model.Event" relationship="DEPENDENCY">
+      <point x="241.99990821610845" y="0.0" />
+      <point x="5052.0" y="1489.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="model.Event" target="model.EntertainmentProvider" relationship="DEPENDENCY">
+      <point x="-382.00009178389155" y="-15.0" />
+      <point x="5163.0" y="2214.0" />
+      <point x="5163.0" y="4493.0" />
+      <point x="4971.0" y="4493.0" />
+      <point x="4971.0" y="1474.0" />
+      <point x="241.99990821610845" y="-15.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="30.000349397605532" y="-76.0" />
+      <point x="10112.313" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="state.IBookingState" target="model.Booking" relationship="DEPENDENCY">
+      <point x="-2.004684974963311E-4" y="-49.0" />
+      <point x="9068.127" y="1771.0" />
+      <point x="5004.0" y="1771.0" />
+      <point x="5004.0" y="776.0" />
+      <point x="6339.711" y="776.0" />
+      <point x="4.6619816930615343E-4" y="-186.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="4.6619816930615343E-4" y="-186.0" />
+      <point x="4152.961" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="-15.000333333333401" y="-98.0" />
+      <point x="2143.333" y="4941.5" />
+      <point x="2016.0" y="4941.5" />
+      <point x="2016.0" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="command.CreateEventCommand.LogStatus" target="command.CreateEventCommand" relationship="INNER_CLASS">
+      <point x="15.0" y="120.0" />
+      <point x="42.5" y="-186.0" />
+    </edge>
+    <edge source="command.ICommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="3.4939760553243104E-4" y="38.0" />
+      <point x="5299.813" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="external.MockEntertainmentProviderSystem" relationship="CREATE">
+      <point x="-180.52083333333348" y="-109.0" />
+      <point x="12.104166666666515" y="175.0" />
+    </edge>
+    <edge source="Main" target="controller.Controller" relationship="CREATE">
+      <point x="210.5" y="45.0" />
+      <point x="10735.794" y="5534.0" />
+      <point x="15.000132864835905" y="65.0" />
+    </edge>
+    <edge source="Main" target="command.CancelEventCommand" relationship="DEPENDENCY">
+      <point x="-160.49965060239356" y="-131.0" />
+      <point x="-29.999650602394468" y="87.0" />
+    </edge>
+    <edge source="state.IEventState" target="model.Event" relationship="DEPENDENCY">
+      <point x="-397.4998671351641" y="0.0" />
+      <point x="6592.0" y="2751.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="state.UserState" target="model.User" relationship="TO_ONE">
+      <point x="1.3286483590491116E-4" y="-109.0" />
+      <point x="8725.294" y="312.5" />
+      <point x="3680.0" y="312.5" />
+      <point x="3680.0" y="94.0" />
+      <point x="-124.4998671351641" y="-15.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="state.IBookingState" relationship="DEPENDENCY">
+      <point x="-14.9998333333333" y="-87.0" />
+      <point x="2550.896" y="4956.5" />
+      <point x="2835.273" y="4956.5" />
+      <point x="2835.273" y="4551.0" />
+      <point x="10187.313" y="4551.0" />
+      <point x="10187.313" y="2641.0" />
+      <point x="9083.127" y="2641.0" />
+      <point x="14.999799531502504" y="-49.0" />
+    </edge>
+    <edge source="command.ICommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.999650602394468" y="38.0" />
+      <point x="5284.813" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="controller.Context" target="external.PaymentSystem" relationship="DEPENDENCY">
+      <point x="123.50001606427395" y="-15.0" />
+      <point x="8852.294" y="3533.0" />
+      <point x="8852.294" y="2975.0" />
+      <point x="9661.627" y="2975.0" />
+      <point x="-2.004684974963311E-4" y="38.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.User" relationship="GENERALIZATION">
+      <point x="146.9995748827755" y="15.0" />
+      <point x="4081.0" y="542.0" />
+      <point x="4081.0" y="109.0" />
+      <point x="-124.4998671351641" y="0.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="model.BookingStatus" relationship="DEPENDENCY">
+      <point x="-121.49965060239447" y="45.0" />
+      <point x="6548.0" y="5165.0" />
+      <point x="6548.0" y="735.0" />
+      <point x="6636.0" y="735.0" />
+      <point x="6.789466198169066" y="87.0" />
+    </edge>
+    <edge source="controller.Controller" target="controller.Context" relationship="DEPENDENCY">
+      <point x="1.3286483590491116E-4" y="65.0" />
+      <point x="10720.794" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.ListEventsCommand.LogStatus" target="command.ListEventsCommand" relationship="INNER_CLASS">
+      <point x="-27.00003380183091" y="76.0" />
+      <point x="-75.00003380183091" y="-120.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.999533801830694" y="-186.0" />
+      <point x="4137.961" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="command.LogoutCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.999533801830694" y="-51.5" />
+      <point x="4607.961" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="model.Event" relationship="DEPENDENCY">
+      <point x="-3.380183102308365E-5" y="-120.0" />
+      <point x="1045.148" y="4471.0" />
+      <point x="5052.0" y="4471.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="command.BookEventCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="-29.9998333333333" y="-87.0" />
+      <point x="-85.56453380183075" y="142.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.999650602394468" y="-76.0" />
+      <point x="10067.313" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="model.Event" relationship="DEPENDENCY">
+      <point x="-121.49965060239447" y="0.0" />
+      <point x="6592.0" y="5120.0" />
+      <point x="6592.0" y="4471.0" />
+      <point x="5052.0" y="4471.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="command.ListEventsCommand" relationship="DEPENDENCY">
+      <point x="-15.0" y="120.0" />
+      <point x="276.0" y="5517.0" />
+      <point x="1075.148" y="5517.0" />
+      <point x="29.999966198168977" y="120.0" />
+    </edge>
+    <edge source="command.UpdateEntertainmentProviderProfileCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="-3.3333333340124227E-4" y="98.0" />
+      <point x="2158.333" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="command.LogoutCommand" target="controller.Context" relationship="DEPENDENCY">
+      <point x="4.6619816930615343E-4" y="-51.5" />
+      <point x="4622.961" y="4887.0" />
+      <point x="2436.0" y="4887.0" />
+      <point x="2436.0" y="4386.0" />
+      <point x="8197.896" y="4386.0" />
+      <point x="1.6064273950178176E-5" y="142.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="state.IEventState" relationship="DEPENDENCY">
+      <point x="-15.000033801831023" y="120.0" />
+      <point x="1030.148" y="5395.5" />
+      <point x="5163.0" y="5395.5" />
+      <point x="5163.0" y="5239.5" />
+      <point x="6636.0" y="5239.5" />
+      <point x="6636.0" y="2766.0" />
+      <point x="-397.4998671351641" y="15.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="1.6666666670062114E-4" y="109.0" />
+      <point x="2999.021" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="1.6666666670062114E-4" y="87.0" />
+      <point x="2565.896" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="state.UserState" target="model.User" relationship="DEPENDENCY">
+      <point x="1.3286483590491116E-4" y="109.0" />
+      <point x="8725.294" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="command.UpdateConsumerProfileCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="-45.0" y="-120.0" />
+      <point x="-42.448033801831116" y="87.0" />
+    </edge>
+    <edge source="state.BookingState" target="model.Event" relationship="DEPENDENCY">
+      <point x="-58.89786713516423" y="98.0" />
+      <point x="8056.896" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="Main" target="command.ListEventsCommand" relationship="DEPENDENCY">
+      <point x="-210.49965060239356" y="0.0" />
+      <point x="5539.864" y="5489.0" />
+      <point x="5539.864" y="5517.0" />
+      <point x="1075.148" y="5517.0" />
+      <point x="29.999966198168977" y="120.0" />
+    </edge>
+    <edge source="controller.Context" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="15.00001606427395" y="142.0" />
+      <point x="8212.896" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.ConsumerPreferences" relationship="TO_ONE">
+      <point x="-4.2511722449489753E-4" y="-197.0" />
+      <point x="3903.072" y="269.0" />
+      <point x="2025.0" y="269.0" />
+      <point x="43.020682730938915" y="98.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="model.Booking" relationship="DEPENDENCY">
+      <point x="-44.9998333333333" y="87.0" />
+      <point x="2520.896" y="5380.5" />
+      <point x="4620.461" y="5380.5" />
+      <point x="4620.461" y="5204.0" />
+      <point x="5004.0" y="5204.0" />
+      <point x="5004.0" y="776.0" />
+      <point x="6339.711" y="776.0" />
+      <point x="4.6619816930615343E-4" y="-186.0" />
+    </edge>
+    <edge source="model.Booking" target="model.BookingStatus" relationship="TO_ONE">
+      <point x="30.000466198169306" y="-186.0" />
+      <point x="6369.711" y="527.0" />
+      <point x="-104.5" y="0.0" />
+    </edge>
+    <edge source="state.EventState" target="state.IEventState" relationship="REALIZATION">
+      <point x="230.0" y="-98.0" />
+      <point x="0.0" y="49.0" />
+    </edge>
+    <edge source="command.CancelEventCommand.LogStatus" target="command.CancelEventCommand" relationship="INNER_CLASS">
+      <point x="0.0" y="131.0" />
+      <point x="68.39788319943636" y="-87.0" />
+    </edge>
+    <edge source="controller.Controller" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.999867135164095" y="65.0" />
+      <point x="10705.794" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="model.Consumer" relationship="TO_ONE">
+      <point x="-45.0" y="-120.0" />
+      <point x="753.5" y="802.0" />
+      <point x="3888.072" y="802.0" />
+      <point x="-15.000425117224495" y="197.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="-3.3801830795709975E-5" y="87.0" />
+      <point x="3414.398" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="model.Booking" target="model.Event" relationship="TO_ONE">
+      <point x="4.6619816930615343E-4" y="186.0" />
+      <point x="6339.711" y="3607.0" />
+      <point x="5899.364" y="3607.0" />
+      <point x="-9.178389154840261E-5" y="351.0" />
+    </edge>
+    <edge source="model.Booking" target="model.Consumer" relationship="TO_ONE">
+      <point x="-14.999533801830694" y="-186.0" />
+      <point x="6324.711" y="802.0" />
+      <point x="3888.072" y="802.0" />
+      <point x="-15.000425117224495" y="197.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="4.6619816930615343E-4" y="186.0" />
+      <point x="4152.961" y="5329.0" />
+      <point x="-17.5" y="5329.0" />
+      <point x="-17.5" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="controller.Controller" target="command.ICommand" relationship="DEPENDENCY">
+      <point x="-2.293867135163964" y="-65.0" />
+      <point x="10718.5" y="4352.0" />
+      <point x="5314.813" y="4352.0" />
+      <point x="15.000349397605532" y="38.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand.LogStatus" target="command.RegisterConsumerCommand" relationship="INNER_CLASS">
+      <point x="15.0" y="109.0" />
+      <point x="1421.148033801831" y="5135.0" />
+      <point x="196.5" y="15.0" />
+    </edge>
+    <edge source="Main" target="command.RegisterConsumerCommand" relationship="DEPENDENCY">
+      <point x="-210.5" y="-15.0" />
+      <point x="813.5" y="5474.0" />
+      <point x="15.0" y="120.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="model.Event" relationship="DEPENDENCY">
+      <point x="-103.4348333333337" y="-87.0" />
+      <point x="2462.461" y="4471.0" />
+      <point x="5052.0" y="4471.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="controller.Context" target="state.IBookingState" relationship="TO_ONE">
+      <point x="123.5" y="15.0" />
+      <point x="9053.127" y="3563.0" />
+      <point x="-15.000200468497496" y="49.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand.LogStatus" target="command.RegisterEntertainmentProviderCommand" relationship="INNER_CLASS">
+      <point x="20.74796619816925" y="120.0" />
+      <point x="30.0001666666667" y="-109.0" />
+    </edge>
+    <edge source="view.ConsoleView" target="view.IView" relationship="REALIZATION">
+      <point x="-174.0" y="-329.0" />
+      <point x="18.0" y="93.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="model.User" relationship="TO_ONE">
+      <point x="107.4999661981692" y="-15.0" />
+      <point x="3680.0" y="5105.0" />
+      <point x="3680.0" y="94.0" />
+      <point x="-124.4998671351641" y="-15.0" />
+    </edge>
+    <edge source="Main" target="command.ICommand" relationship="DEPENDENCY">
+      <point x="210.50034939760644" y="0.0" />
+      <point x="10557.627" y="5489.0" />
+      <point x="10557.627" y="4352.0" />
+      <point x="5314.813" y="4352.0" />
+      <point x="15.000349397605532" y="38.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="model.Consumer" relationship="CREATE">
+      <point x="-15.0" y="120.0" />
+      <point x="783.5" y="5682.5" />
+      <point x="11152.294" y="5682.5" />
+      <point x="11152.294" y="-32.5" />
+      <point x="3933.072" y="-32.5" />
+      <point x="29.999574882775505" y="-197.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="state.IBookingState" relationship="DEPENDENCY">
+      <point x="-44.99965060239447" y="-76.0" />
+      <point x="10037.313" y="4551.0" />
+      <point x="10187.313" y="4551.0" />
+      <point x="10187.313" y="2641.0" />
+      <point x="9083.127" y="2641.0" />
+      <point x="14.999799531502504" y="-49.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="state.IUserState" relationship="DEPENDENCY">
+      <point x="121.50034939760553" y="0.0" />
+      <point x="7159.563" y="5120.0" />
+      <point x="7159.563" y="4514.0" />
+      <point x="2808.0" y="4514.0" />
+      <point x="2808.0" y="4408.0" />
+      <point x="9956.627" y="4408.0" />
+      <point x="14.999799531502504" y="60.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="model.User" relationship="DEPENDENCY">
+      <point x="14.999966198168977" y="-120.0" />
+      <point x="1060.148" y="4429.0" />
+      <point x="10068.627" y="4429.0" />
+      <point x="10068.627" y="109.0" />
+      <point x="124.5001328648359" y="0.0" />
+    </edge>
+    <edge source="state.EventState" target="model.Event" relationship="CREATE">
+      <point x="-199.9998671351641" y="-98.0" />
+      <point x="7339.294" y="2214.0" />
+      <point x="382.0" y="-15.0" />
+    </edge>
+    <edge source="model.EntertainmentProvider" target="model.Event" relationship="TO_MANY">
+      <point x="-9.178389154840261E-5" y="164.0" />
+      <point x="4661.739" y="3607.0" />
+      <point x="5899.364" y="3607.0" />
+      <point x="-9.178389154840261E-5" y="351.0" />
+    </edge>
+    <edge source="command.CancelEventCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.999650602394468" y="-87.0" />
+      <point x="6786.063" y="4911.0" />
+      <point x="261.0" y="4911.0" />
+      <point x="261.0" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="command.RegisterConsumerCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="-30.0" y="-120.0" />
+      <point x="768.5" y="4450.0" />
+      <point x="3581.0" y="4450.0" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand.LogStatus" target="command.CancelBookingCommand" relationship="INNER_CLASS">
+      <point x="0.0" y="131.0" />
+      <point x="10367.127200468498" y="5105.0" />
+      <point x="110.5" y="-15.0" />
+    </edge>
+    <edge source="command.LoginCommand" target="command.LoginCommand.LogStatus" relationship="DEPENDENCY">
+      <point x="-60.375" y="-87.0" />
+      <point x="15.0" y="87.0" />
+    </edge>
+    <edge source="Main" target="command.LoginCommand" relationship="DEPENDENCY">
+      <point x="-210.5" y="-75.0" />
+      <point x="3429.398" y="5414.0" />
+      <point x="14.999966198169204" y="87.0" />
+    </edge>
+    <edge source="command.CreateEventCommand" target="state.IEventState" relationship="DEPENDENCY">
+      <point x="350.0004661981693" y="119.5" />
+      <point x="6636.0" y="5239.5" />
+      <point x="6636.0" y="2766.0" />
+      <point x="-397.4998671351641" y="15.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="model.Booking" relationship="TO_ONE">
+      <point x="45.0001666666667" y="87.0" />
+      <point x="2610.896" y="5667.5" />
+      <point x="-62.5" y="5667.5" />
+      <point x="-62.5" y="1010.5" />
+      <point x="3018.396" y="1010.5" />
+      <point x="3018.396" y="750.0" />
+      <point x="6354.711" y="750.0" />
+      <point x="15.000466198169306" y="-186.0" />
+    </edge>
+    <edge source="controller.Context" target="state.IBookingState" relationship="DEPENDENCY">
+      <point x="123.50001606427395" y="0.0" />
+      <point x="10187.313" y="3548.0" />
+      <point x="10187.313" y="2641.0" />
+      <point x="9083.127" y="2641.0" />
+      <point x="14.999799531502504" y="-49.0" />
+    </edge>
+    <edge source="Main" target="command.CreateEventCommand" relationship="DEPENDENCY">
+      <point x="-175.49965060239356" y="-131.0" />
+      <point x="6756.063" y="5284.5" />
+      <point x="350.0" y="164.5" />
+    </edge>
+    <edge source="model.Booking" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="-163.9995338018307" y="0.0" />
+      <point x="5126.0" y="1014.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.Booking" relationship="DEPENDENCY">
+      <point x="-4.2511722449489753E-4" y="197.0" />
+      <point x="3903.072" y="776.0" />
+      <point x="6339.711" y="776.0" />
+      <point x="4.6619816930615343E-4" y="-186.0" />
+    </edge>
+    <edge source="command.UpdateProfileCommand" target="view.IView" relationship="DEPENDENCY">
+      <point x="-14.99970046849785" y="76.0" />
+      <point x="1768.565" y="4864.0" />
+      <point x="10583.794" y="4864.0" />
+      <point x="-147.4998671351641" y="93.0" />
+    </edge>
+    <edge source="command.ListEventsCommand" target="model.Consumer" relationship="DEPENDENCY">
+      <point x="29.999966198168977" y="-120.0" />
+      <point x="1075.148" y="4535.0" />
+      <point x="5126.0" y="4535.0" />
+      <point x="5126.0" y="4318.0" />
+      <point x="3639.0" y="4318.0" />
+      <point x="3639.0" y="527.0" />
+      <point x="-147.0004251172245" y="0.0" />
+    </edge>
+    <edge source="Main" target="command.RegisterEntertainmentProviderCommand" relationship="DEPENDENCY">
+      <point x="-210.5" y="-60.0" />
+      <point x="2984.021" y="5429.0" />
+      <point x="-14.9998333333333" y="109.0" />
+    </edge>
+    <edge source="model.Consumer" target="model.ConsumerPreferences" relationship="CREATE">
+      <point x="14.999574882775505" y="-197.0" />
+      <point x="3918.072" y="238.0" />
+      <point x="1996.979" y="238.0" />
+      <point x="14.999682730938957" y="98.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="external.PaymentSystem" relationship="DEPENDENCY">
+      <point x="-74.9998333333333" y="87.0" />
+      <point x="2490.896" y="5365.5" />
+      <point x="-47.5" y="5365.5" />
+      <point x="-47.5" y="2572.5" />
+      <point x="3018.396" y="2572.5" />
+      <point x="3018.396" y="2975.0" />
+      <point x="9661.627" y="2975.0" />
+      <point x="-2.004684974963311E-4" y="38.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="model.Event" relationship="DEPENDENCY">
+      <point x="-182.05200000000002" y="-120.0" />
+      <point x="108.948" y="4471.0" />
+      <point x="5052.0" y="4471.0" />
+      <point x="5052.0" y="3883.0" />
+      <point x="6592.0" y="3883.0" />
+      <point x="6592.0" y="2229.0" />
+      <point x="381.99990821610845" y="0.0" />
+    </edge>
+    <edge source="command.UpdateConsumerProfileCommand" target="model.ConsumerPreferences" relationship="CREATE">
+      <point x="-242.052" y="-120.0" />
+      <point x="48.948" y="238.0" />
+      <point x="1996.979" y="238.0" />
+      <point x="14.999682730938957" y="98.0" />
+    </edge>
+    <edge source="command.BookEventCommand" target="external.EntertainmentProviderSystem" relationship="DEPENDENCY">
+      <point x="-29.9998333333333" y="87.0" />
+      <point x="2535.896" y="5365.5" />
+      <point x="5148.0" y="5365.5" />
+      <point x="5148.0" y="4972.0" />
+      <point x="4938.0" y="4972.0" />
+      <point x="4938.0" y="1014.0" />
+      <point x="219.49957488277505" y="0.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="model.Booking" relationship="DEPENDENCY">
+      <point x="90.00034939760553" y="-76.0" />
+      <point x="10172.313" y="1771.0" />
+      <point x="5004.0" y="1771.0" />
+      <point x="5004.0" y="776.0" />
+      <point x="6339.711" y="776.0" />
+      <point x="4.6619816930615343E-4" y="-186.0" />
+    </edge>
+    <edge source="command.LogoutCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="15.000466198169306" y="-51.5" />
+      <point x="4637.961" y="4846.5" />
+      <point x="3721.0" y="4846.5" />
+      <point x="3721.0" y="4450.0" />
+      <point x="3581.0" y="4450.0" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.RegisterEntertainmentProviderCommand" target="command.ICommand" relationship="REALIZATION">
+      <point x="15.0001666666667" y="109.0" />
+      <point x="3014.021" y="5257.5" />
+      <point x="3581.0" y="5257.5" />
+      <point x="3581.0" y="4284.0" />
+      <point x="5392.313" y="4284.0" />
+      <point x="92.50034939760553" y="38.0" />
+    </edge>
+    <edge source="command.CancelBookingCommand" target="model.BookingStatus" relationship="DEPENDENCY">
+      <point x="-59.99965060239447" y="-76.0" />
+      <point x="10022.313" y="4987.0" />
+      <point x="6548.0" y="4987.0" />
+      <point x="6548.0" y="735.0" />
+      <point x="6636.0" y="735.0" />
+      <point x="6.789466198169066" y="87.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.11142755428978282" showDependencies="true" x="5545.0" y="2825.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

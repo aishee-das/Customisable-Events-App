@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.graphhopper.external:jackson-datatype-jts:2.14" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="com.graphhopper.external" artifactId="jackson-datatype-jts" version="2.14" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper.external/jackson-datatype-jts/2.14/c980cae2b4610c01e1f3b2cfae5dbb1c6551ac06/jackson-datatype-jts-2.14.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphhopper.external/jackson-datatype-jts/2.14/1e35b29bd539a53c25fe496583eddc533e53aa51/jackson-datatype-jts-2.14-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

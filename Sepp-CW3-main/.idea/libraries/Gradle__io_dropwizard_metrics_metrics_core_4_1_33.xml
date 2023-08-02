@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.dropwizard.metrics:metrics-core:4.1.33" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.dropwizard.metrics" artifactId="metrics-core" version="4.1.33" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/4.1.33/95d2195b77350c1f861a30e3d13daf512a5ea84f/metrics-core-4.1.33.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/4.1.33/e972f7941c1f9f8d6f4ba1b5a2afc0fb01b69e8a/metrics-core-4.1.33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

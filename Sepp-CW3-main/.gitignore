@@ -1,0 +1,11 @@
+*.png
+*.svg
+*.uml
+*.zip
+!**/doc-files/*
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+build/
+data/scotland-latest.osm.pbf

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.dropwizard.metrics:metrics-annotation:4.1.33" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.dropwizard.metrics" artifactId="metrics-annotation" version="4.1.33" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-annotation/4.1.33/596f99e595ba91b48993c940fcc68357a2b5f3c9/metrics-annotation-4.1.33.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-annotation/4.1.33/2add75f1f464228c17698898afe79e4093b65bf1/metrics-annotation-4.1.33-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

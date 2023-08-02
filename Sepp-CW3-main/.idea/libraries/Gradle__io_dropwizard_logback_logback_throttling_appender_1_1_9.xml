@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.dropwizard.logback:logback-throttling-appender:1.1.9" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.dropwizard.logback" artifactId="logback-throttling-appender" version="1.1.9" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.logback/logback-throttling-appender/1.1.9/c9f8625a52a8497c0ee01d2370381f9a440affe8/logback-throttling-appender-1.1.9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard.logback/logback-throttling-appender/1.1.9/8874fd9ae839d4efc2d545f055975ed833d9db9d/logback-throttling-appender-1.1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

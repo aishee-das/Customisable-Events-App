@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.dropwizard:dropwizard-jackson:2.0.34" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.dropwizard" artifactId="dropwizard-jackson" version="2.0.34" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jackson/2.0.34/e79116d56b3aa789b7bcaf4867c0e1504518b498/dropwizard-jackson-2.0.34.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-jackson/2.0.34/af859dc5ff92494e17a089939b5b28cbf9b98a44/dropwizard-jackson-2.0.34-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

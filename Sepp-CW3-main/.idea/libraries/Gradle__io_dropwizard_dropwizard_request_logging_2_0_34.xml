@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.dropwizard:dropwizard-request-logging:2.0.34" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.dropwizard" artifactId="dropwizard-request-logging" version="2.0.34" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-request-logging/2.0.34/1ae54f3a9c65df80a7f9d15b3e0f6728b732558e/dropwizard-request-logging-2.0.34.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.dropwizard/dropwizard-request-logging/2.0.34/f90a17821c5000ab346bc3597f2c3066c51d563c/dropwizard-request-logging-2.0.34-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
